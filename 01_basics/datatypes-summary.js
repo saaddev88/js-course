@@ -39,3 +39,34 @@ let myobj ={
 console.log(typeof states);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// *************************MEMORY-TYPE*********************************
+// THERE ARE TEO TYPES OF MEMORY
+// 1)STACK(PRIMITIVE DATATYPES) 2)HEAP(NON-PRIMITIVE DATATYPES)
+
+//EXAMPLE FOR STACK
+
+let number =3456;
+let anothernumber = number;
+anothernumber =6789;
+// console.log(anothernumber);
+// console.log(number);in stack the actual value is remain same not change because it give the copy to the new variable if the variable the change the value didnt effect the actual value 
+
+// EXAMPLE FOR HEAP
+let person1 ={
+    name:"aslam",
+    age:43,
+    email:"jdksnn@google,com"
+
+}
+let person2 = person1;
+person2.name ="saad"
+person2.age =22
+person2.email="saad@google,com"
+
+console.log(person2);//in heap the actual value is changable because in heap it uses the reference of the past array,function,object thatswhy old memory is remove over new
+
+
+
+
+
