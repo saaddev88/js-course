@@ -48,9 +48,35 @@ const email = []
     
     
 // }
-const emptyobject = {}
-if (Object.keys(emptyobject).length ===0) {
-    console.log("empty object");
+
+// const emptyobject = {}
+// if (Object.keys(emptyobject).length ===0) {
+//     console.log("empty object");
     
     
-}
+// }
+
+// false == 0 ans:true, false == "" ans:true,0 == false ans:true
+
+// Nullish Coalescing Operator(??):it is work on null and undefined value let supposed
+
+let val1;
+val1 = 10 ?? 5
+val1 = null ?? 5
+val1 = undefined ?? 17 ?? 4
+
+
+
+
+
+
+console.log(val1);
+
+// terniary Operator
+
+// condition ? true : false 
+
+let phoneprice = 1500
+phoneprice >= 1300 ? console.log("more than 1300"): console.log("less than 1200");
+
+
