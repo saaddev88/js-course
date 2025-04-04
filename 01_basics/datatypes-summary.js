@@ -33,7 +33,10 @@ console.log(typeof bigint);
 console.log(typeof myfunction);
 console.log(typeof  useremail);
 console.log(typeof heros);
+// ****************************************************************
 
+// there are two types of memory is presented
+// stack(primitive) and heap (non primitive)
 
 
 
