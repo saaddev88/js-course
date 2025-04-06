@@ -38,6 +38,40 @@ console.log(typeof heros);
 // there are two types of memory is presented
 // stack(primitive) and heap (non primitive)
 
+// In stack the copy of your data is used not the original one 
+
+//  In heap memory the original reference is given thats why if you want to change the reference the original one is also changed
+
+// for example:
+
+// for stack:
+
+let userone = "android"
+let usertwo = userone
+usertwo = "iphone"
+
+
+console.log(userone);
+
+console.log(usertwo);
+
+// for heap 
+
+let studentdetail = {
+    name : "saad",
+    id: 140,
+    email: "saad.com"
+}
+
+let maindata = studentdetail
+
+maindata.id = 149
+console.log(studentdetail.id);
+
+console.log(maindata.id);
+
+
+
 
 
 
