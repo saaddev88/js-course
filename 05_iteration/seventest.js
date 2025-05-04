@@ -46,5 +46,3 @@ const fruit = ['Mango', 'Apple', 'Banana'];
 const modified = fruit.map((value)=> ({value: value, 
     length: value.length})) 
 console.log(modified);
-
-
